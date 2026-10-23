@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="icon\add.png" />
+    <None Remove="icon\bucket-list.png" />
+    <None Remove="icon\calendar.png" />
+    <None Remove="icon\delete.png" />
+    <None Remove="icon\edit.png" />
+    <None Remove="icon\game-task.png" />
+    <None Remove="icon\home.png" />
+    <None Remove="icon\ledger.png" />
+    <None Remove="icon\program.png" />
+    <None Remove="icon\settings.png" />
+    <None Remove="icon\shortcuts.png" />
+    <None Remove="icon\web-link.png" />
+    <None Remove="icon\wishlist.png" />
+    <None Remove="icon\link-add.png" />
+    <None Remove="icon\more-vertical.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icon\add.png" />
+    <Resource Include="icon\bucket-list.png" />
+    <Resource Include="icon\calendar.png" />
+    <Resource Include="icon\delete.png" />
+    <Resource Include="icon\edit.png" />
+    <Resource Include="icon\game-task.png" />
+    <Resource Include="icon\home.png" />
+    <Resource Include="icon\ledger.png" />
+    <Resource Include="icon\program.png" />
+    <Resource Include="icon\settings.png" />
+    <Resource Include="icon\shortcuts.png" />
+    <Resource Include="icon\web-link.png" />
+    <Resource Include="icon\wishlist.png" />
+    <Resource Include="icon\link-add.png" />
+    <Resource Include="icon\more-vertical.png" />
+  </ItemGroup>
+
+</Project>
